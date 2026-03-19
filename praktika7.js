@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-  "https://raw.githubusercontent.com/katerina-svaga/praktika7/refs/heads/main/qwantani_dusk_2_puresky_2k.hdr",
+  "https://raw.githubusercontent.com/katerina-svaga/praktika7/refs/heads/main/citrus_orchard_road_puresky_1k.hdr",
   () => {
     hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
     hdrTexture.colorSpace = THREE.SRGBColorSpace;
